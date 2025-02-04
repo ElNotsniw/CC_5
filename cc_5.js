@@ -89,3 +89,22 @@ const discountedPrices = prices.map(price => price * 0.90);
 // Console-logging the end results
 
 console.log(discountedPrices);
+
+
+
+
+// Task 5 - Filter Method
+
+// Declaring the variable, "inventory", using const and assigning it five values 
+
+const inventory = [3, 7 ,0, 9, 0];
+
+
+// using the .filter() to remove any products with zero stock
+
+const filteredInventory = inventory.filter(quantity => quantity > 0);
+
+
+// Console-logging the end results
+
+console.log(filteredInventory);
