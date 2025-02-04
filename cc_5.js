@@ -146,4 +146,26 @@ const customerLocator = customers.find(customer => customer === "Charlie");
 
 // Console-logging the end result
 
-console.log(customerLocator);
+console.log("Customer:", customerLocator);
+
+
+
+
+// Task 8 - Function Declaration
+
+// Setting up the function to calculate tax
+
+function calculateTax(amount, taxrate) {
+    const tax = amount *(taxrate / 100)
+    return tax
+};
+
+// Setting up the values to calculate tax
+
+const amount = 500
+const taxrate = 10
+const tax = calculateTax(amount, taxrate);
+
+// Console-logging the end result using a template literal
+
+console.log(`The tax for $${amount} at ${taxrate}% is $${tax}`);
