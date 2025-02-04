@@ -130,3 +130,20 @@ const totalRevenue = sales.reduce((acc, currentValue) => acc + currentValue, 0);
 
 
 console.log("Total Revenue:", totalRevenue);
+
+
+
+
+// Task 7 - find() Method
+
+// Declaring the variable, "customers", using const and assigning it an array
+
+const customers = ["Alice", "Bob", "Charlie", "David"];
+
+// Using the .find() method to locate a specific person
+
+const customerLocator = customers.find(customer => customer === "Charlie");
+
+// Console-logging the end result
+
+console.log(customerLocator);
