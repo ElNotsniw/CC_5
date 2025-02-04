@@ -44,3 +44,31 @@ const order = {
 
 order.displayOrder();
 
+
+
+
+// Task 3 - Array Manipulation (push, pop, unshift, shift)
+
+// Declaring the variable, "cartItems" using let and giving it three products
+
+let cartItems = ["Tomatoes, Broccoli, Spinach"];
+
+// Adding a new product to the end using .push()
+
+cartItems.push("Lettuce");
+
+// Removing the last item using .pop()
+
+cartItems.pop();
+
+// Adding an item to the beginning using .unshift()
+
+cartItems.unshift("Kale");
+
+// Removing the first item in the array using .shift()
+
+cartItems.shift();
+
+// Console-logging the end results
+
+console.log(cartItems);
