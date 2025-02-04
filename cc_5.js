@@ -72,3 +72,20 @@ cartItems.shift();
 // Console-logging the end results
 
 console.log(cartItems);
+
+
+
+
+// Task 4 - Map Method
+
+// Declaring the variable "prices" using const and giving it three vaLues: 100, 200, 300
+
+const prices = [100, 200, 300];
+
+// Using .map() to apply the 10% discount
+
+const discountedPrices = prices.map(price => price * 0.90);
+
+// Console-logging the end results
+
+console.log(discountedPrices);
