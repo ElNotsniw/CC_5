@@ -108,3 +108,25 @@ const filteredInventory = inventory.filter(quantity => quantity > 0);
 // Console-logging the end results
 
 console.log(filteredInventory);
+
+
+
+
+// Task 6 - Reduce Method
+
+// Declaring the variable, "sales", and assigning with an array of numbers
+
+
+const sales = [500, 300, 200, 400];
+
+
+// Using the reduce method to add up all the values to calculate the total revenue
+
+
+const totalRevenue = sales.reduce((acc, currentValue) => acc + currentValue, 0);
+
+
+// Console-logging the total
+
+
+console.log("Total Revenue:", totalRevenue);
