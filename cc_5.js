@@ -191,3 +191,19 @@ const finalPrice = applyDiscount(price, discount);
 // Console-logging the end result using a template literal
 
 console.log(`The price with a ${discount}% discount is $${finalPrice}`);
+
+
+
+// Task 10 - Arrow Function
+
+// Setting up the function to calculate points for every transaction
+
+const calculatePoints = (purchaseamount) => {
+    const points = (purchaseamount / 10);
+    console.log(points);
+    return points;
+};
+
+// Calling on this function to return me a value
+
+calculatePoints(100);
