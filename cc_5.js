@@ -15,7 +15,7 @@ const customer = {
 
 console.log(`Name: ${customer.name}`);
 console.log(`Age: ${customer.age}`);
-console.log(`Email: ${customer.email}`);
+console.log(`Email: ${customer.email}`);                //Output: Name: John Doe, Age: 35, Email: john.doe@email.com
 
 
 
@@ -42,7 +42,7 @@ const order = {
 
 // Calling back the variable
 
-order.displayOrder();
+order.displayOrder();               // Output: OrderID: 12345, Total Amount: $150, Status: Processing
 
 
 
@@ -51,7 +51,7 @@ order.displayOrder();
 
 // Declaring the variable, "cartItems" using let and giving it three products
 
-let cartItems = ["Tomatoes, Broccoli, Spinach"];
+let cartItems = ["Tomatoe, Broccoli, Spinach"];
 
 // Adding a new product to the end using .push()
 
@@ -71,7 +71,7 @@ cartItems.shift();
 
 // Console-logging the end results
 
-console.log(cartItems);
+console.log(cartItems);                 // [Tomatoe, Broccoli, Spinach]
 
 
 
@@ -88,7 +88,7 @@ const discountedPrices = prices.map(price => price * 0.90);
 
 // Console-logging the end results
 
-console.log(discountedPrices);
+console.log(discountedPrices);              // Output: [90,180,270]
 
 
 
@@ -107,7 +107,7 @@ const filteredInventory = inventory.filter(quantity => quantity > 0);
 
 // Console-logging the end results
 
-console.log(filteredInventory);
+console.log(filteredInventory);             // Output: [3,7,9]
 
 
 
@@ -129,7 +129,7 @@ const totalRevenue = sales.reduce((acc, currentValue) => acc + currentValue, 0);
 // Console-logging the total
 
 
-console.log("Total Revenue:", totalRevenue);
+console.log("Total Revenue:", totalRevenue);            // Output: Total Revenue: 1400
 
 
 
@@ -146,7 +146,7 @@ const customerLocator = customers.find(customer => customer === "Charlie");
 
 // Console-logging the end result
 
-console.log("Customer:", customerLocator);
+console.log("Customer:", customerLocator);          // Output: Customer: Charlie
 
 
 
@@ -168,7 +168,7 @@ const tax = calculateTax(amount, taxrate);
 
 // Console-logging the end result using a template literal
 
-console.log(`The tax for $${amount} at ${taxrate}% is $${tax}`);
+console.log(`The tax for $${amount} at ${taxrate}% is $${tax}`);            // The tax for $500 at 10% is $50
 
 
 
@@ -190,7 +190,7 @@ const finalPrice = applyDiscount(price, discount);
 
 // Console-logging the end result using a template literal
 
-console.log(`The price with a ${discount}% discount is $${finalPrice}`);
+console.log(`The price with a ${discount}% discount is $${finalPrice}`);            // Output: The price with a 10% discount is $135
 
 
 
@@ -206,4 +206,4 @@ const calculatePoints = (purchaseamount) => {
 
 // Calling on this function to return me a value
 
-calculatePoints(100);
+calculatePoints(100);               // Output: 10
